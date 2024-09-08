@@ -18,7 +18,7 @@ function setup() {
     url_params = getURLParams();
     displayBackgroundTiles = Number(url_params.dbt || "0");
     createDrawCell();
-    const imagePath = `data/wfc.png`;
+    const imagePath = `/assets/wfc.png`;
 
     sprite[[75, 105, 47]] = loadImage('/assets/sprite_0.png');
     sprite[[95, 205, 228]] = loadImage('/assets/sprite_1.png');
