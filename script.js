@@ -28,6 +28,10 @@ function setup() {
     sprite[[0, 0, 0]] = loadImage('/assets/sprite_5.png');
     sprite[[172, 50, 50]] = loadImage('/assets/sprite_6.png');
     sprite[[217, 87, 99]] = loadImage('/assets/sprite_7.png');
+    sprite[[106, 190, 48]] = loadImage('/assets/sprite_8.png');
+    sprite[[251, 242, 54]] = loadImage('/assets/sprite_9.png');
+    sprite[[48, 96, 130]] = loadImage('/assets/sprite_10.png');
+    sprite[[215, 123, 186]] = loadImage('/assets/sprite_11.png');
     sampleImage = loadImage(imagePath, createField, () => {
         alert("Image couldn't be loaded );");
     });
