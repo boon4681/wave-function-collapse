@@ -76,15 +76,11 @@ class Field {
         // const j = this.W - 1;
         // const i = floor(random(0.45, 0.55) * this.H);
         const j = floor(random(0.45, 0.55) * this.W);
-        // console.log(JSON.stringify(this.grid[i][j].states))
-        // this.grid[i][j].collapse();
-        // console.log(this.grid[i][j].states)
         this.grid[i][j]._hasCollapsed = true;
-        this.grid[i][j].states = [0];
+        this.grid[i][j].states = [1];
         this.grid[i][j].color = this.color_table[
             this.patterns[this.grid[i][j].states[0]]
         ];
-
         this.affected = this.getNeighborIndicies(i, j);
     }
 
@@ -105,7 +101,6 @@ class Field {
         while (this.affected.length > 0) {
             this.updateStep();
         }
-
         this.updateStep();
     }
 
