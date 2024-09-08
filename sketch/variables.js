@@ -1,0 +1,11 @@
+let tileH;
+let tileW;
+let tileSpacing = 0;
+let tileBorderRadius = 0;
+let sw;
+let widthDivider;
+let heightDivider;
+let background_color = "#1b1919";
+let displayBackgroundTiles = true;
+let main_timer = 0;
+let total_collapse_count = 0;
