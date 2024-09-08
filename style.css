@@ -1,4 +1,9 @@
+*,::after,::before{
+    box-sizing: border-box;
+}
 body {
+    width: 100vw;
+    height: 100vh;
     background-color: #1b1919;
     overflow: hidden;
     font-family: "League Spartan", sans-serif;
